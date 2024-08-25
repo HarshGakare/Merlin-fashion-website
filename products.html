@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Products</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+  <link rel="stylesheet" href="css/style_index.css">
+  <link rel="stylesheet" href="css/categories.css">
+  <link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav> 
+    <div class="logo">
+      <h3><a href="merlin.html" class="logo-name">Merlin Fashion</a></h3>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="categories.html">Categories</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="login.html" id="login">Login</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+  <!-- End of Navbar -->
+
+  <h2 class="main-head-of-products">Everyone Has A Style Statement<br>
+    <span class="colored-word-bigger-size">FIND YOURS HERE!</span>
+  </h2>
+
+  <div class="bg-images">
+    <a href="products.html"><img src="images/products-img/marcus-loke-xXJ6utyoSw0-unsplash (1).jpg" alt="Fashion Background"></a>
+  </div>
+
+  <center><p class="msg-ps">
+    <span class="colored-word">Click</span> on the product to add it to your shopping list.
+    <br>Go below and check <span class="colored-word">YOUR CART</span> for details.
+  </p></center>
+
+  <!-- Products Section -->
+  <div class="products-section">
+    <!-- For Her -->
+    <h1>For <span class="colored-word">Her</span></h1>
+    <center><hr class="products-hr"></center>
+    <br><br>
+
+    <div class="product-category kurti">
+      <div class="product-item">
+        <img src="images/products-img/women/kurti1.png" id="AKS Kurta with Plazzzo & Dupatta || Rs.1799" onclick="addToCart('AKS Kurta with Plazzzo & Dupatta', 1799)" alt="AKS Kurta">
+        <div class="des">
+          <h2>AKS</h2>
+          <p>Kurta with Plazzzo & Dupatta</p>
+          <h3>Rs.1799</h3>
+        </div>
+        <button class="btn-add-to-cart" onclick="addToCart('AKS Kurta with Plazzzo & Dupatta', 1799)">Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="images/products-img/women/kurti2.png" id="Nayo Women Solid Kurta with Trouser || Rs.1649" onclick="addToCart('Nayo Women Solid Kurta with Trouser ', 1649)" alt="AKS Kurta">
+        <div class="des">
+          <h2>Nayo</h2>
+          <p>Nayo Women Solid Kurta with Trouser/p>
+          <h3>Rs.1649</h3>
+        </div>
+        <button class="btn-add-to-cart" onclick="addToCart('Nayo Women Solid Kurta with Trouser ', 1649)">Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="images/products-img/women/kurti3.png" id="AKS Printed Straight Kurta || Rs.659" onclick="addToCart('AKS Printed Straight Kurta', 659)" alt="AKS Kurta">
+        <div class="des">
+          <h2>AKS</h2>
+          <p>Printed Straight Kurta</p>
+          <h3>Rs.659</h3>
+        </div>
+        <button class="btn-add-to-cart" onclick="addToCart('AKS Printed Straight Kurta', 659)">Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="images/products-img/women/kurti4.png" id="Fabindia Slim Fit Straight Kurta || Rs.1990" onclick="addToCart('Fabindia Slim Fit Straight Kurta & Dupatta', 1990)" alt="Fabindia Kurta">
+        <div class="des">
+          <h2>Fabindia</h2>
+          <p>Slim Fit Straight Kurta & Dupatta</p>
+          <h3>Rs.1990</h3>
+        </div>
+        <button class="btn-add-to-cart" onclick="addToCart('Fabindia Slim Fit Straight Kurta & Dupatta', 1990)">Add to Cart</button>
+      </div>
+      <!-- More items... -->
+    </div>
+
+    <!-- For Him -->
+    <h1>For <span class="colored-word">Him</span></h1>
+    <center><hr class="products-hr"></center>
+    <br><br>
+
+    <div class="product-category shirts">
+      <div class="product-item">
+        <img src="images/products-img/men/shirt1.png" id="Difference of Opinion Printed Shirt || Rs.449" onclick="addToCart('Difference of Opinion Printed Shirt', 449)" alt="Printed Shirt">
+        <div class="des">
+          <h2>Difference of Opinion</h2>
+          <p>Printed Shirt</p>
+          <h3>Rs.449</h3>
+        </div>
+        <button class="btn-add-to-cart" onclick="addToCart('Difference of Opinion Printed Shirt', 449)">Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="images/products-img/men/shirt2.png" id="Moda Rapido Printed T-shirt || Rs.429" onclick="addToCart('Moda Rapido Printed T-shirt', 429)" alt="Printed Shirt">
+        <div class="des">
+          <h2>Moda Rapido </h2>
+          <p>Printed T-shirt </p>
+          <h3>Rs.429</h3>
+        </div>
+        <button class="btn-add-to-cart" onclick="addToCart('Moda Rapido Printed T-shirt', 429)">Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="images/products-img/men/shirt3.png" id="DILLINGER Colourblocked T-shirt || Rs.404" onclick="addToCart('DILLINGER Colourblocked T-shirt', 404)" alt="Printed Shirt">
+        <div class="des">
+          <h2>DILLINGER</h2>
+          <p>PColourblocked T-shirt </p>
+          <h3>Rs.404</h3>
+        </div>
+        <button class="btn-add-to-cart" onclick="addToCart('DILLINGER Colourblocked T-shirt', 404)">Add to Cart</button>
+      </div>
+      <div class="product-item">
+        <img src="images/products-img/men/shirt4.png" id="Roadster T-shirt with Shoulder Patch || Rs.519" onclick="addToCart('Roadster T-shirt with Shoulder Patch', 519)" alt="Printed Shirt">
+        <div class="des">
+          <h2>Roadster</h2>
+          <p>T-shirt with Shoulder Patch</p>
+          <h3>Rs.519</h3>
+        </div>
+        <button class="btn-add-to-cart" onclick="addToCart('Roadster T-shirt with Shoulder Patch', 519)">Add to Cart</button>
+      </div>
+      <!-- More items... -->
+    </div>
+
+    <!-- End of Products Section -->
+
+    <h4 class="sry-msg">Uh-Oh! We are <span class="colored-word">done</span> 🛒</h4>
+    <center><hr class="last-hr-of-product"></center>
+    <br><br>
+
+    <!-- Cart Section -->
+    <div class="cart-details">
+      <h2 class="head-of-cart">Your Cart</h2>
+      <hr class="hr-of-cart-head">
+      <table id="cart-table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+          <!-- Cart items will be added dynamically here -->
+        </tbody>
+      </table>
+      <p id="cart-total">Total: Rs.0</p>
+      <button class="btn-clear-list" onclick="emptyCart()"> <span > Clear My List</span></button> 
+      <br>
+      <small>Can't see anything? Click & add your favorite fashion in <span class="colored-word">Shopping List!</span></small>
+    </div>
+    <!-- End of Cart Section -->
+  </div>
+
+  <script src="js/products.js"></script>
+</body>
+</html>

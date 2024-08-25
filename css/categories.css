@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.product-img{
+    display: grid;
+    grid-template-columns: repeat(1,auto-fill(1160px,1fr));
+}
+h1{
+    padding-top: 110px;
+    margin:20px;
+    text-align: center;
+}
+hr{
+    
+    max-width: 200px;
+    border:1px solid #caa529;
+}
+#name-fashion{
+    color:#f84258;
+}
+ .main-head-of-color-gold{
+    color:#caa529;
+}
+.for-her, .for-him{
+    display:grid;
+    padding-left:50px;
+}
+.trends-categories{
+    grid-template-columns: repeat(3,1fr);
+}
+.for-her{
+    grid-template-columns: repeat(2,1fr);
+}
+
+@media screen and (max-width:984px){
+    .trends-categories, .for-her, .for-him{
+        padding-right:20px;
+        padding-left:20px;
+    }
+}
+
+.trends-categories {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.trends-categories a img {
+    width: 20rem;
+    height: 20rem;
+    padding:5px;
+   
+}
+
+.trends-categories a {
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid gold;
+    border-radius: 6px;
+}
+
+.trends {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+.trends h2 {
+    color: rgba(255, 204, 0, 0.992);
+    font-size: 1rem;
+    padding-bottom: 6px;
+  
+}
+
+.trends h3 {
+    color: black;
+    font-size: 1rem;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+.trends h4 {
+    color: rgb(155, 155, 155);
+    font-size: 1rem;
+    
+}
+.side-text img {
+    width: 20rem;
+    height: 100%;
+}
+.side-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-text div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 16px;
+}
+.side-text h2 {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.side-text h3 {
+    font-size: 1.2rem;
+    color: black;
+    width: 80%;
+}
+
+.for-him{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 40px;
+}
+
+
+.brands{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.brands img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.brands div {
+    width: 60%;
+    height: 130px;
+    position: absolute;
+    top: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.brands div img{
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+}
+
+.brands div p{
+    width: 80%;
+    font-size:medium;
+    font-weight: 600;
+    color: black;
+}
